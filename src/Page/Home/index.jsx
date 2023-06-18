@@ -20,8 +20,8 @@ export default function Home() {
       <title>Product Item</title>
       <meta name="description" content="Mô tả trang chủ" />
         <meta property="og:title" content="Tiêu đề Open Graph" />
-        <meta property="og:description" content={data[0]?.data?.data?.name} />
-        <meta property="og:image" content={data[0]?.data?.data?.image}/>
+        <meta property="og:description" content='bài viết của tôi' />
+        <meta property="og:image" content='https://api-ecom.duthanhduoc.com/images/bbea6d3e-e5b1-494f-ab16-02eece816d50.jpg'/>
         <meta property="og:url" content="https://api-ecom.duthanhduoc.com/" />
       </Helmet>
       {data?.data?.data?.products.map((item)=>(
